@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Palta App",
+    "logo": "https://play-lh.googleusercontent.com/ptwZMJZoXWdpdcvLkyhcZXgkLUIJQ96DTvIFS6n0JtfXCuwmx4rLeqIun7EkPFqecCg=w240-h480-rw",
+    "desc": "The app allows music learners and enthusiasts to develop their creativity by jumbling up notes, an ancient tradition mastered by Indian musicians for centuries, now available to a wider audience. Users can share palta and export functionality for backup purposes, enhancing their musical journey with accessible learning tools.",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=com.prodt.palta",
+    "appstoreLink": "https://apps.apple.com/us/app/palta-music/id1641688983",
+    "websiteLink": ""
+  },
+  {
+    "id": 1,
+    "name": "Imprint Optic Universe App",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/c3/aa/d2c3aa90-2776-572a-58c9-44907dc45476/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/230x0w.webp",
+    "desc": "Imprint Optic Universe app ease your life and supports you in spectacle Lens dispensing through comparative slides and help to choose the best lens with their features and advantages. It is an interactive unique application to demonstrate the difference between various lens type, lens coating and lens materials with their features. It also has an AI based recommendation engine which provides the perfect mix of best spectacle lenses and coatings suitable for you based on your inputs.",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=com.prodt.gkboptics",
+    "appstoreLink": "https://apps.apple.com/gb/app/imprint-optic-universe/id6445816554",
+    "websiteLink": ""
+  },
+  {
+    "id": 2,
+    "name": "One Technical Lite",
+    "logo": "https://play-lh.googleusercontent.com/ymGxYD-YeJwzDmcIAF-Ru4c0nsR_VDdVM_pV1FNbLCfKWkuE5HBRlpzQGBEae3OeQw=s56-rw",
+    "desc": "One Technical Lite will help in performing various on field operations and tasks with ease. It will help in managing and recording relationships and interactions with end customers. It is designed to remove silos in customer information ensure that it's available to field team.",
+    "playstoreLink": "https://play.google.com/store/search?q=one+technical+lite&c=apps",
+    "appstoreLink": "",
+    "websiteLink": ""
+  },
+  {
+    "id": 3,
+    "name": "SR Tracker Lite",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/f0/c8/d3f0c8f1-c425-4213-652b-cc7299124daa/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/217x0w.webp",
+    "desc": "Utec Service is an application for home service providers to offer services through the Utec platform. It assists partners in delivering standardised services, tracking daily tasks, and engaging with customers in real time. Additionally, it helps the management and recording of customer interactions.",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=com.ultratech.srtrackerlite",
+    "appstoreLink": "https://apps.apple.com/in/app/utec-service-app/id6472489367",
+    "websiteLink": ""
+  },
+  {
+    "id": 4,
+    "name": "Utec Home Building Partner App",
+    "logo": "https://play-lh.googleusercontent.com/453gKJACI-d2OaWEDts3qQaX-yWTGv506X1y4E1CPnh80Sv_wBBVAFJfN2qDP-HSSBc=w240-h480-rw",
+    "desc": "Step into the future of homebuilding with the Utec Partner App by UltraTech. Whether you're an architect, engineer, contractor, or material provider, this app empowers you to connect with clients, manage projects, and showcase your work—all in one place. Join a growing community of homebuilding experts and unlock new opportunities to scale your business.",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=com.ultratech.utecPartner&pli=1",
+    "appstoreLink": "https://apps.apple.com/in/app/utec-partner-service-provider/id1581085666",
+    "websiteLink": ""
+  },
+  {
+    "id": 5,
+    "name": "Utec Pass - Loyalty App",
+    "logo": "https://play-lh.googleusercontent.com/k8fIb_fPgYNTkSwxAWmnpFr84l0tXjBsfRBxci0mzggIzkgfzLT8C1oMDUl1066_0dw=w240-h480-rw",
+    "desc": "Transform your purchases into powerful rewards with the Utec Pass App. As a Contractor, Waterproofing Specialist, Tile Applicator, Architect or Engineer, every purchase you make earns you valuable points that you can redeem for exclusive rewards, benefits, and gifts. It's more than just a loyalty program - it's your key to business growth and success.",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=com.ultratech.rewardsloyalty",
+    "appstoreLink": "https://apps.apple.com/in/app/utec-pass-loyalty-app/id6472489402",
+    "websiteLink": ""
+  },
+  {
+    "id": 6,
+    "name": "Utec - Home Building Solutions",
+    "logo": "https://play-lh.googleusercontent.com/453gKJACI-d2OaWEDts3qQaX-yWTGv506X1y4E1CPnh80Sv_wBBVAFJfN2qDP-HSSBc=w240-h480-rw",
+    "desc": "Imagine completing your homebuilding project with zero stress, where every detail is at your fingertips! Whether you're building your own home or managing a project for a client, you deserve a smooth, hassle-free experience. The Utec by UltraTech app is your all-in-one solution, guiding you from planning to completion.",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=com.ultratech.utec",
+    "appstoreLink": "https://apps.apple.com/in/app/utec-home-building-solutions/id1601410751",
+    "websiteLink": ""
+  },
+  {
+    "id": 7,
+    "name": "ONN - Bike Rentals",
+    "logo": "https://play-lh.googleusercontent.com/VEp1bpYg5wWOIza7ggFBb977CTzHnuZKYUex49-3wmdMKrwxDwq0aZZsXoaXMDdr3WI=w240-h480-rw",
+    "desc": "Add joy to your daily commute & mobility with ONN — Select Electric Bikes, eScooters, Honda Activas or even popular motorcycles for smart, affordable and convenient micro-mobility. Rides starting as low as ₹10/hour!",
+    "playstoreLink": "https://play.google.com/store/apps/details?id=moblie.bikerenterz",
+    "appstoreLink": "https://apps.apple.com/in/app/onn-bikes-mobility-simplified/id1067173292",
+    "websiteLink": ""
+  }
+]
