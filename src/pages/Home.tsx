@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronRight, Sun, Moon, Plus } from 'lucide-react';
+import { ChevronRight, Sun, Moon } from 'lucide-react';
 import initialAppsData from '../data/apps.json';
 import AddAppDialog from '../components/AddAppDialog';
 

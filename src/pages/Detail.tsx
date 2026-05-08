@@ -1,12 +1,12 @@
 import React from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
-import { ArrowLeft, ExternalLink, Play, Apple, Globe } from 'lucide-react';
+import { ArrowLeft, Play, Apple, Globe } from 'lucide-react';
 import appsData from '../data/apps.json';
 
 const Detail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const location = useLocation();
-  
+
   // Use passed state if available (for newly added apps), else find in JSON
   const app = location.state?.app || appsData.find((a: any) => a.id === parseInt(id || '0'));
 
@@ -50,7 +50,7 @@ const Detail: React.FC = () => {
         <h2>About this App</h2>
         <p>{app.desc}</p>
       </section>
-      
+
       <div style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
         <p>App ID: {app.id} • Information provided by App Universe</p>
       </div>
