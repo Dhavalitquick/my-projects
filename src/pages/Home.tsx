@@ -9,9 +9,10 @@ interface AppItem {
   name: string;
   logo: string;
   desc: string;
-  playstoreLink: string;
-  appstoreLink: string;
-  websiteLink: string;
+  playstoreLink?: string;
+  appstoreLink?: string;
+  websiteLink?: string;
+  docLink?: string;
 }
 
 interface HomeProps {

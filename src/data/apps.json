@@ -70,5 +70,13 @@
     "playstoreLink": "https://play.google.com/store/apps/details?id=moblie.bikerenterz",
     "appstoreLink": "https://apps.apple.com/in/app/onn-bikes-mobility-simplified/id1067173292",
     "websiteLink": ""
+  },
+  {
+    "id": 8,
+    "name": "InnoFulfill",
+    "logo": "https://play-lh.googleusercontent.com/Q7RbcKN4mKO19dSpikm4Dy0HRgO0AMFDs7oPNPtrGe5v2CoeXxqGP--tYxSYjh1qTFE6=w240-h480-rw",
+    "desc": "InnoFulfill is a cutting-edge platform designed for efficient mass delivery management. It streamlines the process by seamlessly integrating order reception from multiple ecommerce platforms and automating order assignment, fulfillment center discovery, route optimization, online order tracking, and notifications. The platform aims to reduce delivery costs and times significantly, benefiting businesses and customers alike.",
+    "websiteLink": "https://beta.innofulfill.com/",
+    "docLink": "https://docs.innofulfill.com/old-api-docs"
   }
 ]

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
-import { ArrowLeft, Play, Apple, Globe } from 'lucide-react';
+import { ArrowLeft, Play, Apple, Globe, BookOpen } from 'lucide-react';
 import appsData from '../data/apps.json';
 
 const Detail: React.FC = () => {
@@ -40,6 +40,11 @@ const Detail: React.FC = () => {
             {app.websiteLink && (
               <a href={app.websiteLink} target="_blank" rel="noopener noreferrer" className="store-link website">
                 <Globe size={20} /> Official Website
+              </a>
+            )}
+            {app.docLink && (
+              <a href={app.docLink} target="_blank" rel="noopener noreferrer" className="store-link docs-link">
+                <BookOpen size={20} /> Documentation
               </a>
             )}
           </div>

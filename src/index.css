@@ -350,14 +350,50 @@ body {
   transition: var(--transition);
 }
 
+.store-link:hover {
+  transform: translateY(-2px);
+}
+
 .playstore {
   background: #2dd4bf;
   color: #042f2e;
 }
 
+.playstore:hover {
+  background: #14b8a6;
+  box-shadow: 0 10px 20px rgba(45, 212, 191, 0.3);
+}
+
+.appstore {
+  background: #0f172a;
+  color: #f8fafc;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.appstore:hover {
+  background: #1e293b;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.3);
+}
+
 .website {
   background: #6366f1;
   color: white;
+}
+
+.website:hover {
+  background: var(--primary-hover);
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+}
+
+.docs-link {
+  background: var(--accent);
+  color: white;
+}
+
+.docs-link:hover {
+  background: var(--accent);
+  filter: brightness(1.15);
+  box-shadow: 0 10px 20px rgba(244, 63, 94, 0.3);
 }
 
 /* Dialog Styles */

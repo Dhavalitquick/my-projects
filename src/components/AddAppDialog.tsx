@@ -1,14 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, Link, PlayCircle, Apple } from 'lucide-react';
+import { X, Link, PlayCircle, Apple, BookOpen } from 'lucide-react';
 
 interface AppItem {
   id: number;
   name: string;
   logo: string;
   desc: string;
-  playstoreLink: string;
-  appstoreLink: string;
-  websiteLink: string;
+  playstoreLink?: string;
+  appstoreLink?: string;
+  websiteLink?: string;
+  docLink?: string;
 }
 
 interface AddAppDialogProps {
@@ -25,7 +26,8 @@ const AddAppDialog: React.FC<AddAppDialogProps> = ({ isOpen, onClose, onAdd }) =
     desc: '',
     playstoreLink: '',
     appstoreLink: '',
-    websiteLink: ''
+    websiteLink: '',
+    docLink: ''
   });
 
   useEffect(() => {
@@ -49,7 +51,8 @@ const AddAppDialog: React.FC<AddAppDialogProps> = ({ isOpen, onClose, onAdd }) =
       desc: '',
       playstoreLink: '',
       appstoreLink: '',
-      websiteLink: ''
+      websiteLink: '',
+      docLink: ''
     });
   };
 
@@ -141,6 +144,20 @@ const AddAppDialog: React.FC<AddAppDialogProps> = ({ isOpen, onClose, onAdd }) =
                 placeholder="https://www.example.com"
                 value={formData.websiteLink}
                 onChange={e => setFormData({ ...formData, websiteLink: e.target.value })}
+              />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <label>Documentation Link</label>
+            <div style={{ position: 'relative' }}>
+              <BookOpen size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
+              <input
+                type="url"
+                style={{ paddingLeft: '2.5rem' }}
+                placeholder="https://docs.example.com"
+                value={formData.docLink}
+                onChange={e => setFormData({ ...formData, docLink: e.target.value })}
               />
             </div>
           </div>
