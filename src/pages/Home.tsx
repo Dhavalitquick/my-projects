@@ -68,7 +68,7 @@ const Home: React.FC<HomeProps> = ({ theme, toggleTheme }) => {
 
             <div className="card-footer">
               <span className="badge">
-                {app.playstoreLink && app.appstoreLink ? 'Multi-platform' : 'Mobile App'}
+                {app.websiteLink ? 'Web App' : (app.playstoreLink && app.appstoreLink ? 'Multi-platform' : 'Mobile App')}
               </span>
               <div className="back-btn" style={{ margin: 0 }}>
                 View Details <ChevronRight size={18} />
